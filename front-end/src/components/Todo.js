@@ -30,11 +30,11 @@ function Todo() {
                     <h2>My ToDo List #1</h2>
                     <img className="" src="/img/edit.png" alt="edit"></img>
                     <img src="/img/trash.png" alt="trash"></img>
-                    {todo.map((data) =>
+                    {/* {todo.map((data) =>
                         <h2>{data.todoText}</h2>,
                         <h2>{data.createdAt}</h2>,
                         <h2>{data.checkedAt}</h2>
-                    )}
+                    )} */}
                 </div>
                 <div>
                     <Form.Control type="text" placeholder="What's next" />
