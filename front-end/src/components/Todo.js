@@ -7,7 +7,7 @@ import "../css/todo.css";
 function Todo() {
     const [todo, setTodo] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:3001/api/todo", {
+        fetch("http://54.179.166.212:3001/api/todo", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
