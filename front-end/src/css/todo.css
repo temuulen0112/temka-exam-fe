@@ -1,0 +1,55 @@
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: rgb(227, 219, 249);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    border: 2px solid none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    height: 80px;
+    background-color: blueviolet;
+}
+
+.box h1 {
+    color: azure;
+    display: inline-block;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: pointer;
+    border: none;
+}
+
+.todo-box {
+    margin: auto;
+    width: 50%;
+    height: 350px;
+    background-color: white;
+}
+
+.todo-box h2 {
+    color: rgb(53, 62, 62);
+    display: inline-block;
+    margin-right: auto;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 20px solid blueviolet;
+}
